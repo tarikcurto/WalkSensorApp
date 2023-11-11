@@ -14,6 +14,7 @@
 		A8782D322AFFCAF900FD8E97 /* WalkSensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8782D312AFFCAF900FD8E97 /* WalkSensorTests.swift */; };
 		A8782D3C2AFFCAF900FD8E97 /* WalkSensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8782D3B2AFFCAF900FD8E97 /* WalkSensorUITests.swift */; };
 		A8782D3E2AFFCAF900FD8E97 /* WalkSensorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8782D3D2AFFCAF900FD8E97 /* WalkSensorUITestsLaunchTests.swift */; };
+		A88008F72AFFD2E00055BF2B /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88008F62AFFD2E00055BF2B /* BluetoothManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		A8782D372AFFCAF900FD8E97 /* WalkSensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkSensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8782D3B2AFFCAF900FD8E97 /* WalkSensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkSensorUITests.swift; sourceTree = "<group>"; };
 		A8782D3D2AFFCAF900FD8E97 /* WalkSensorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkSensorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A88008F62AFFD2E00055BF2B /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		A8AFB4562AFFE20500367D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +97,12 @@
 		A8782D1F2AFFCAF800FD8E97 /* WalkSensor */ = {
 			isa = PBXGroup;
 			children = (
+				A8AFB4562AFFE20500367D37 /* Info.plist */,
 				A8782D202AFFCAF800FD8E97 /* WalkSensorApp.swift */,
 				A8782D222AFFCAF800FD8E97 /* ContentView.swift */,
 				A8782D242AFFCAF900FD8E97 /* Assets.xcassets */,
 				A8782D262AFFCAF900FD8E97 /* Preview Content */,
+				A88008F62AFFD2E00055BF2B /* BluetoothManager.swift */,
 			);
 			path = WalkSensor;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8782D232AFFCAF800FD8E97 /* ContentView.swift in Sources */,
+				A88008F72AFFD2E00055BF2B /* BluetoothManager.swift in Sources */,
 				A8782D212AFFCAF800FD8E97 /* WalkSensorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,8 +423,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WalkSensor/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SAWY5S96D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalkSensor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,8 +453,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WalkSensor/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SAWY5S96D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalkSensor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

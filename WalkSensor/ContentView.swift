@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @ObservedObject var bluetoothManager = BluetoothManager()
+    @State var temperature: Float = 0.0
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Temperature \(temperature)")
+                .onAppear {
+                    bluetoothManager.temperature = $temperature
+                }
+
         }
         .padding()
     }
